@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffe6f2; /* Soft pink background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styling */
+.container {
+  width: 800px;
+  max-width: 95%;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #ffffff; /* White background for contrast */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(255, 182, 193, 0.7); /* Pink shadow */
+  border: 2px solid #ffb6c1; /* Light pink border */
+}
+
+/* Heading Styling */
+h1, h2, h3 {
+  color: #ff69b4; /* Hot pink */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin: 15px 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #d14794; /* Plum color */
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 2px solid #ffb6c1; /* Light pink border */
+  border-radius: 5px;
+  background-color: #fff0f5; /* Light pink background */
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 16px;
+  background-color: #ff69b4; /* Hot pink button */
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1493; /* Deep pink hover */
+}
+
+/* Divider Styling */
+hr {
+  margin: 40px 0;
+  border: none;
+  height: 2px;
+  background-color: #ffb6c1;
+}
+
+/* Result Section */
+.result-section {
+  margin-top: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid #ffb6c1;
+  border-radius: 10px;
+}
+
+p {
+  color: #d14794;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  color: #d14794;
+  font-size: 14px;
+  font-style: italic;
+}
